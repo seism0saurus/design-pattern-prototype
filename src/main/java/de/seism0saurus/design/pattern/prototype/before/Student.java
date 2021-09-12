@@ -12,18 +12,6 @@ public class Student {
         this.semester = config.getSemester();
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public void setSemester(String semester) {
-        this.semester = semester;
-    }
-
     @Override
     public String toString() {
         return "Student " + name +
