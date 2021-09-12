@@ -20,10 +20,6 @@ public class Student implements Cloneable {
         this.surname = surname;
     }
 
-    public void setSemester(String semester) {
-        this.semester = semester;
-    }
-
     @Override
     public String toString() {
         return "Student " + name +
