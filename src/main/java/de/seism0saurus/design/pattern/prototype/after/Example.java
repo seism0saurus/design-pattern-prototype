@@ -19,18 +19,18 @@ public class Example {
         System.out.println(mara);
 
         Student paul = prototypeStudent.clone();
-        mara.setName("Paul");
-        mara.setSurname("Doe");
+        paul.setName("Paul");
+        paul.setSurname("Doe");
         System.out.println(paul);
 
         Student abbey = prototypeStudent.clone();
-        mara.setName("Abbey");
-        mara.setSurname("Parker");
+        abbey.setName("Abbey");
+        abbey.setSurname("Parker");
         System.out.println(abbey);
 
         Student john = prototypeStudent.clone();
-        mara.setName("John");
-        mara.setSurname("Adams");
+        john.setName("John");
+        john.setSurname("Adams");
         System.out.println(john);
 
         long end = new Date().getTime();
